@@ -1,4 +1,4 @@
 default:
 	git pull
-	terraform init
+	terraform init -migrate-state
 	terraform apply -auto-approve
