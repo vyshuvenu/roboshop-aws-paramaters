@@ -4,7 +4,7 @@ parameters = {
   "rds.dev.master_username"    = { type = "String", value = "devadmin" }
   "rds.dev.database_name"      = { type = "String", value = "dummy" }
   "user.dev.REDIS_HOST"        = { type = "String", value = "dev-redis-elasticache-cluster.zdlupi.0001.use1.cache.amazonaws.com" }
-  "cart.dev.REDIS_HOST"        = { type = "String", value = "dev-redis-elasticache-cluster.zdlupi.0001.use1.cache.amazonaws.com:6379" }
+  "cart.dev.REDIS_HOST"        = { type = "String", value = "dev-redis-elasticache-cluster.zdlupi.0001.use1.cache.amazonaws.com" }
   "cart.dev.CATALOGUE_HOST"    = { type = "String", value = "catalogue-dev.vyshu.online" }
   "cart.dev.CATALOGUE_PORT"    = { type = "String", value = "80" }
   "shipping.dev.CART_ENDPOINT" = { type = "String", value = "cart-dev.vyshu.online:80" }
